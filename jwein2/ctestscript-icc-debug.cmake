@@ -2,7 +2,7 @@
 set(ROOT_DIRECTORY "/home/vdev/git/ViennaCL")
 set(CTEST_SOURCE_DIRECTORY "${ROOT_DIRECTORY}/viennacl-dev")
 set(CTEST_CMAKE_GENERATOR "Unix Makefiles")
-set(CTEST_BUILD_CONFIGURATION "Release")
+set(CTEST_BUILD_CONFIGURATION "Debug")
 set(CTEST_BUILD_OPTIONS "")
 set(ENV{CC} icc)
 set(ENV{CXX} icpc)
