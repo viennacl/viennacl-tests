@@ -8,6 +8,7 @@ set(ENV{CC} icc)
 set(ENV{CXX} icpc)
 set(COMPILER_NAME "ICC")
 set(COMPILER_VERSION "14.0.2")
+set(CTEST_TEST_TIMEOUT 500)  # seconds
 set(CTEST_BUILD_FLAGS -j4) # build tests in parallel
 #set(CTEST_COMMAND "${CTEST_EXECUTABLE_NAME} -j4") # run tests in parallel
 set(WITH_MEMCHECK FALSE)
