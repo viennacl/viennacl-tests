@@ -1,4 +1,4 @@
-set(ROOT_DIRECTORY "/home/vdev/git/ViennaCL")
+set(ROOT_DIRECTORY "/Users/vdev/git/ViennaCL")
 set(CTEST_SOURCE_DIRECTORY $ENV{VIENNACLPATH})
 set(USED_PROJECTS "VIENNACL")
 set(CTEST_BUILD_OPTIONS "")
